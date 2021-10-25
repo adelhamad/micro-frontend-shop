@@ -4,7 +4,7 @@ module.exports = {
   webpack(config, options) {
     config.module.rules.push({
       test: /_app.js/,
-      loader: "./lib/federation-loader.js",
+      loader: "@module-federation/nextjs-mf/lib/federation-loader.js",
     });
     config.plugins.push(
       new options.webpack.container.ModuleFederationPlugin({

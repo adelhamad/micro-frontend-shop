@@ -114,6 +114,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@module-federation/nextjs-mf@^3.2.0":
+  version "3.2.0"
+  resolved "http://r.privjs.com/@module-federation%2fnextjs-mf/-/nextjs-mf-3.2.0.tgz#33a1ba27749beac7571578698869ba836db13161"
+  integrity sha512-x9LuQd4+8ck1uI7onDxF9qNrW/u2h3RhbLtqjCB3Shoh66SBV5aGkSoI1dzxJ8Ntpg1SxkyiwJusfsSx3i7ztg==
+  dependencies:
+    webpack-federated-stats-plugin "2.0.5"
+
 "@napi-rs/triples@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
@@ -3361,6 +3368,11 @@ webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
+
+webpack-federated-stats-plugin@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/webpack-federated-stats-plugin/-/webpack-federated-stats-plugin-2.0.5.tgz#ea184231f2cc380082af54fef5d1a9b05255b002"
+  integrity sha512-Ji+RVg3+0joPAXqqv8F9wD4lyq8ibxqYu3vzp8gaBOy7jdHcnn8egZ0KV08S5KbBlxP1n7jzq0kSN+M5uMaWyA==
 
 whatwg-url@^7.0.0:
   version "7.1.0"
