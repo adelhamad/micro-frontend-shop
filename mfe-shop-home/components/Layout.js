@@ -1,4 +1,4 @@
-import { useSession, signIn, signOut, getSession } from 'next-auth/react'
+import { useSession, signIn, signOut } from 'next-auth/react'
 import NavigationBar from './NavigationBar'
 
 export default function Layout({ children }) {
@@ -11,12 +11,3 @@ export default function Layout({ children }) {
 		</>
 	)
 }
-
-export async function getServerSideProps(context) {
-	return {
-	  props: {
-		session: await getSession(context),
-	  },
-	}
-  }
-  
