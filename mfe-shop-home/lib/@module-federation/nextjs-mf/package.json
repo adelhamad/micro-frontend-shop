@@ -1,0 +1,25 @@
+{
+  "public": true,
+  "name": "@module-federation/nextjs-mf",
+  "version": "3.2.0",
+  "description": "Module Federation helper for NextJS",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/module-federation/nextjs-mf",
+  "author": "Zack Jackson <zackary.l.jackson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,json,md,ts,tsx}\""
+  },
+  "publishConfig": {
+    "registry": "https://r.privjs.com"
+  },
+  "dependencies": {
+    "webpack-federated-stats-plugin": "2.0.5"
+  },
+  "devDependencies": {
+    "next": "11.0.1",
+    "prettier": "2.3.2",
+    "webpack": "5.45.1"
+  }
+}
